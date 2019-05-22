@@ -1,6 +1,6 @@
+import {Player} from "../Player";
 import {User} from "../User";
 import {ClientMessage, IMsgFromClient, MESSAGE_TYPE_FROM_CLIENT} from "./ClientMessage";
-import {Player} from "../Player";
 
 export interface IFromClientPlayMoveRoom extends IMsgFromClient {
     answer: any;

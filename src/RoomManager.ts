@@ -1,6 +1,6 @@
 import {Game} from "./Game";
-import {User} from "./User";
 import {Room} from "./Room";
+import {User} from "./User";
 
 export interface IRoomMakerDict {
     [name: string]: any;

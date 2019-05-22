@@ -2,10 +2,10 @@ import Timeout = NodeJS.Timeout;
 import * as _ from "underscore";
 import {IMsgFromClient} from "./from-client/ClientMessage";
 import {ClientMessageFactory} from "./from-client/ClientMessageFactory";
-import {User} from "./User";
-import {UserManager} from "./UserManager";
 import {Room} from "./Room";
 import {RoomManager} from "./RoomManager";
+import {User} from "./User";
+import {UserManager} from "./UserManager";
 import {sign} from "./utils";
 
 export interface IGameOptions {
