@@ -1,6 +1,6 @@
 {
   "name": "nodito",
-  "description": "Demo de juegos nodejs.",
+  "description": "Una librería para aprender juegos por turnos en node.",
   "author": "Emilio Astarita",
   "licence": "MIT",
   "version": "0.0.1",
