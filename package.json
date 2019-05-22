@@ -12,7 +12,8 @@
   "scripts": {
     "build": "tsc",
     "clean": "rm -rf dist/*",
-    "prepublish": "npm run clean ; npm run build"
+    "prepublish": "npm run clean ; npm run build",
+    "lint": "tslint --fix --project ."
   },
   "repository": {
     "type": "git",
