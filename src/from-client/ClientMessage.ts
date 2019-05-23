@@ -32,6 +32,7 @@ export abstract class ClientMessage {
         if (!sender) {
             return false;
         }
+        delete message.token;
         if (!this.validate(message, sender)) {
             return false;
         }
